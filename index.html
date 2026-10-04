@@ -1,18 +1,42 @@
 <!doctype html>
-<html lang="de">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Music Hunter</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        max-width: 42rem; margin: 0 auto; padding: 3rem 1.25rem; line-height: 1.6;
+      }
+      h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+      .claim { color: #666; margin-top: 0; }
+      ul { padding-left: 1.1rem; }
+      footer { margin-top: 2.5rem; font-size: 0.9rem; color: #666; }
+    </style>
   </head>
   <body>
     <h1>Music Hunter</h1>
-    <p>App zur Musikerkennung für DJs und Veranstaltungen.</p>
+    <p class="claim">Continuous music recognition for DJs and events.</p>
+
     <p>
-      <a href="/music-logger-docs/">Dokumentation</a> ·
-      <a href="/music-logger-docs/privacy-policy/">Datenschutz</a> ·
-      <a href="/music-logger-docs/agb/">AGB</a>
+      Music Hunter listens in the background, identifies the tracks that are played and
+      collects them as a session. A session can be exported to Spotify, Apple Music or
+      YouTube Music as a playlist, or shared as a CSV file.
     </p>
-    <p>Kontakt: music.logger.app@gmail.com</p>
+
+    <h2>Legal</h2>
+    <ul>
+      <li><a href="/music-logger-docs/privacy-policy/">Privacy Policy</a></li>
+      <li><a href="/music-logger-docs/agb/">Terms &amp; Conditions</a></li>
+      <li><a href="/music-logger-docs/data-deletion/">Data Deletion</a></li>
+      <li><a href="/music-logger-docs/">Documentation</a></li>
+    </ul>
+
+    <footer>
+      Dj Chami &amp; Chantre Productions UG · Germanusstrasse 30, 52080 Aachen, Germany<br>
+      Contact: <a href="mailto:music.logger.app@gmail.com">music.logger.app@gmail.com</a>
+    </footer>
   </body>
 </html>
